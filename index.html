@@ -18,16 +18,39 @@
 
 
 <script>
+
 $(document).ready(function(){
   
   
   
 
-  $('#topbar').waypoint(function() {
+  $('#about').waypoint(function() {
     document.getElementById('topbar').className='fixed';
     document.getElementById('topbar-margin').className='on';
     document.getElementById('storm2').className='topbutton stopstorm';
+    document.getElementById('about').className='about-margin';
+    }, { offset: 60 
 });
+
+    $('#about').waypoint(function() {
+    document.getElementById('topbar').className='relative';
+    document.getElementById('topbar-margin').className='off';
+    document.getElementById('storm2').className='topbutton';
+    document.getElementById('about').className='';
+    }, { offset: 69 
+});
+    $('#about').waypoint(function() {
+    document.getElementById('storm').className='active selector-about';
+    }, { offset: 70 
+});   
+    $('#projects').waypoint(function() {
+    document.getElementById('storm').className='active selector-projects';
+    }, { offset: 170 
+});  
+    $('#contact').waypoint(function() {
+    document.getElementById('storm').className='active selector-contact';
+    }, { offset: 170 
+});    
   
 });
 </script> 
@@ -38,21 +61,23 @@ $(document).ready(function(){
       <div id="intro">
         <h1>Antoine Papi</h1>
         <div id="explore">
-          <p>Explore</p>
-          <i class="icon-chevron_down"></i>
+          <a href="#about"><p>Explore</p><i class="icon-chevron_down"></i></a>
+          
         </div>
       </div> <!-- end of intro -->
       <div id="all">  
         <div id="topbar" class="relative">  
-          <h2>Antoine Papi</h2>
+          <h2><a href="#intro">Antoine Papi</a></h2>
           <ul>
-            <li class="toplink first"><div id="storm2" class="topbutton"><a href="#about">about</a><div id="storm" class="active"></div></div></li>
+            <li class="toplink first"><div id="storm2" class="topbutton"><a href="#about">about</a><div id="storm" class="active selector-about"></div></div></li>
             <li class="toplink inactive"><div class="topbutton"><a href="#projects">projects</a></div></li>
             <li class="toplink inactive"><div class="topbutton"><a href="#contact">contact</a></div></li>
           </ul>
           <div id="topbar-margin" class="off"></div>
         </div> <!-- end of topbar-->
         <div id="about">
+          <p>About me</p>
+          <img src="" alt="Antoine Papi"/>
 
         </div>
         <div id="projects">

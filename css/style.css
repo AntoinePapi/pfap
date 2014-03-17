@@ -83,6 +83,20 @@ h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
     text-align:center;
     line-height:60px;
 }
+#explore a{color:white;}
+#explore:hover{background:rgba(255, 255, 255, 0.1);}
+
+/* TRANSITIONS TRANSITIONS TRANSITIONS */
+
+#explore, .selector-about, .selector-projects, .selector-contact{
+    -webkit-transition: all 200ms ease-in;
+-moz-transition: all 200ms ease-in;
+-ms-transition: all 200ms ease-in;
+-o-transition: all 200ms ease-in;
+transition: all 200ms ease-in;
+}
+
+/* TOPBAR TOPBAR TOPBAR */
 
 #topbar{
     height:67px;
@@ -102,6 +116,10 @@ h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
 .stopstorm{margin-left:-20px;}
 .off{display:none;}
 .on{height:70px;width:20px;background:white;right:0;position:inherit;right:0;}
+.selector-about{margin-left:0px;}
+.selector-projects{margin-left:120px;}
+.selector-contact{margin-left:240px;}
+.about-margin{margin-top:70px;}
 
 
 /* PANELS PANELS PANELS */
