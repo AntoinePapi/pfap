@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="author" CONTENT="Antoine Papi">
+<meta name="description" CONTENT="22 years old Paris based graphic designer.">
+<meta name="email" CONTENT="antoine.papi@gmail.com">
+<meta name="revisit-after" CONTENT="7 days">
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/mfglabs_iconset.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="icon" href="favicon.ico" />
+	
+<title>Antoine Papi</title>
+
+
+<script>
+$(document).ready(function(){
+  
+  
+  
+
+  $('#topbar').waypoint(function() {
+    document.getElementById('topbar').className='fixed';
+    document.getElementById('topbar-margin').className='on';
+    document.getElementById('storm2').className='topbutton stopstorm';
+});
+  
+});
+</script> 
+</head>
+<body>
+  
+
+      <div id="intro">
+        <h1>Antoine Papi</h1>
+        <div id="explore">
+          <p>Explore</p>
+          <i class="icon-chevron_down"></i>
+        </div>
+      </div> <!-- end of intro -->
+      <div id="all">  
+        <div id="topbar" class="relative">  
+          <h2>Antoine Papi</h2>
+          <ul>
+            <li class="toplink first"><div id="storm2" class="topbutton"><a href="#about">about</a><div id="storm" class="active"></div></div></li>
+            <li class="toplink inactive"><div class="topbutton"><a href="#projects">projects</a></div></li>
+            <li class="toplink inactive"><div class="topbutton"><a href="#contact">contact</a></div></li>
+          </ul>
+          <div id="topbar-margin" class="off"></div>
+        </div> <!-- end of topbar-->
+        <div id="about">
+
+        </div>
+        <div id="projects">
+
+        </div>
+        <div id="contact">
+
+        </div>
+      </div><!-- enf of all -->
+</body>
+</html>
