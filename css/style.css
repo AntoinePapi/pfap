@@ -73,7 +73,7 @@ h1{
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:-43px;
+    margin-top:-60px;
     margin-left:-215px;
 }
 h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
@@ -181,6 +181,48 @@ transition: all 200ms ease-in;
     padding-bottom:70px;
 }
 #contact p{color:white;}
+
+#contact-left{
+    width:335px;
+    height:310px;
+    border:solid 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
