@@ -94,6 +94,17 @@ $(document).ready(function(){
         <div id="contact">
           <p class="title">Get in touch!</p>
           <div id="contact-left">
+            <form action="mail.php" method="post">
+              <p><label for="user"></label>
+              <input type="text" id="user" name="user" value="" placeholder="Name:"/></p>
+              <p><label for="email"></label>
+              <input type="email" id="email" name="email" value="" placeholder="E-mail:"/></p>
+              <p><label for="subject"></label>
+              <input type="text" id="subject" value="" name="subject" placeholder="Subject:"/></p>
+            
+              <textarea id="message" rows="4" cols="25" name="message" placeholder="Message:"></textarea>
+              <input type="submit" value="Send the message" id="send"/>
+           </form>
           </div><!-- end of contact left-->
 
         </div>
