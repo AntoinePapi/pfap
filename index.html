@@ -91,7 +91,7 @@ $(document).ready(function() {
             post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
             
             //Ajax post data to server
-            $.post('php/contact_me.php', post_data, function(data){  
+            $.post('contact_me.php', post_data, function(data){  
                 
                 //load success massage in #result div element, with slide effect.       
                 $("#result").hide().html('<div class="success">'+data+'</div>').slideDown();
