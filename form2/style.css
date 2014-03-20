@@ -77,7 +77,7 @@ input, textarea, #submit_btn{
     background-repeat: no-repeat;
 }
 #message{
-    background-image: url('../imgs/message.png'), url('../imgs/blue.png');
+    background-image: url('../imgs/pencil.png'), url('../imgs/blue.png');
     background-size: auto auto, 35px 100%;
     background-position: 12px 10px, left top;
     background-repeat: no-repeat;

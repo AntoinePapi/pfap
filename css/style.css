@@ -37,6 +37,15 @@
          url('../fonts/hlv/helveticaltstd-bold.ttf') format('truetype'),
          url('../fonts/hlv/helveticaltstd-bold.svg#HelveticaLTStdBold') format('svg');
 }
+@font-face {
+    font-family: 'Adam Regular';
+    src: url('../fonts/adam/adam.eot');
+    src: url('../fonts/adam/adam.eot') format('embedded-opentype'),
+         url('../fonts/adam/adam.woff') format('woff'),
+         url('../fonts/adam/adam.ttf') format('truetype'),
+         url('../fonts/adam/adam.svg#ADAMRegular') format('svg');
+}
+
 
 /* CSS CSS CSS */
 
@@ -132,7 +141,7 @@ transition: all 200ms ease-in;
 
 /* PANELS PANELS PANELS */
 .title{
-    font-family: 'Helvetica Bold';
+    font-family: 'Adam Regular';
     color:#42454e;
     font-size:24px;
     text-transform: uppercase;
@@ -265,14 +274,15 @@ input, textarea, #submit_btn{
     background-repeat: no-repeat;
 }
 #message{
-    background-image: url('../imgs/message.png'), url('../imgs/blue.png');
+    background-image: url('../imgs/pencil.png'), url('../imgs/blue.png');
     background-size: auto auto, 35px 100%;
     background-position: 12px 10px, left top;
     background-repeat: no-repeat;
     height:100px;
     padding-top:10px;
+    margin-bottom:5px;
 }
-#submit_btn{width:336px;background:white;color:#9d9d9d;padding:0;margin-top:-15px;}
+#submit_btn{width:336px;height:30px;background:white;color:#9d9d9d;padding:0;line-height:30px;}
 #submit_btn:hover{opacity:0.7;}
 
 ::-webkit-input-placeholder {
