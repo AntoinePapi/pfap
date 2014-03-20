@@ -1,0 +1,109 @@
+/*#contact_form{
+	width:300px;
+	padding:20px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background:#FAFAFA;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit_btn {
+	border: 1px solid #D8D8D8;
+	padding: 5px 15px 5px 15px;
+	color: #8D8D8D;
+	text-shadow: 1px 1px 1px #FFF;
+	border-radius: 3px;
+	background: #F8F8F8;
+}
+.submit_btn:hover 
+{
+	background: #ECECEC;
+}
+*/
+.success{
+	background: #CFFFF5;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #B9ECCE;
+	border-radius: 5px;
+	font-weight: normal;
+}
+.error{
+	background: #FFDFDF;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #FFCACA;
+	border-radius: 5px;
+	font-weight: normal;
+}
+
+/* form */
+#contact_form{width:335px; border:none;}
+
+input, textarea, #submit_btn{
+    border-radius:4px;
+    border:none;
+    height:30px;
+    width:289px;
+    padding-left:45px;
+    margin-bottom:20px;
+    font-family: 'Din Neue Bold';
+    font-size:16px; 
+    -webkit-box-shadow: 0 0 5px 0 rgba(000,000,000,0.1);
+    box-shadow: 0 0 5px 0 rgba(000,000,000,0.1);
+}
+
+#name{
+    background-image: url('../imgs/name.png'), url('../imgs/blue.png');
+    background-size: auto auto, 35px 100%;
+    background-position: 6px center, left top;
+    background-repeat: no-repeat;
+}
+#email{
+    background-image: url('../imgs/email.png'), url('../imgs/blue.png');
+    background-size: auto auto, 35px 100%;
+    background-position: 7px center, left top;
+    background-repeat: no-repeat;
+}
+#subject{
+    background-image: url('../imgs/subject.png'), url('../imgs/blue.png');
+    background-size: auto auto, 35px 100%;
+    background-position: 7px center, left top;
+    background-repeat: no-repeat;
+}
+#message{
+    background-image: url('../imgs/message.png'), url('../imgs/blue.png');
+    background-size: auto auto, 35px 100%;
+    background-position: 12px 10px, left top;
+    background-repeat: no-repeat;
+    height:100px;
+    padding-top:10px;
+}
+#submit_btn{width:336px;background:white;color:#9d9d9d;padding:0;margin-top:-15px;}
+#submit_btn:hover{opacity:0.7;}
+
+::-webkit-input-placeholder {
+   font-family: 'Din Neue Bold';
+   font-size:16px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Din Neue Bold';
+   font-size:16px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Din Neue Bold';
+   font-size:16px; 
+}
+
+:-ms-input-placeholder {  
+   font-family: 'Din Neue Bold';
+   font-size:16px;
+}
+

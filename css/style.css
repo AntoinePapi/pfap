@@ -182,15 +182,58 @@ transition: all 200ms ease-in;
 }
 #contact p{color:white;}
 
-#contact-left{
-    width:335px;
-    height:310px;
+
+
+/* CONTACT FORM CONTACT FORM CONTACT FORM CONTACT FORM  */
+
+/*#contact_form{
+    width:300px;
+    padding:20px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666666;
+    background:#FAFAFA;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-
+.submit_btn {
+    border: 1px solid #D8D8D8;
+    padding: 5px 15px 5px 15px;
+    color: #8D8D8D;
+    text-shadow: 1px 1px 1px #FFF;
+    border-radius: 3px;
+    background: #F8F8F8;
+}
+.submit_btn:hover 
+{
+    background: #ECECEC;
+}
+*/
+.success{
+    background: #CFFFF5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #B9ECCE;
+    border-radius: 5px;
+    font-weight: normal;
+}
+.error{
+    background: #FFDFDF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFCACA;
+    border-radius: 5px;
+    font-weight: normal;
+}
 
 /* form */
-input, textarea{
+#contact_form{width:335px; border:none;font-family: 'Din Neue Bold';margin-left:65px;}
+
+input, textarea, #submit_btn{
     border-radius:4px;
     border:none;
     height:30px;
@@ -203,7 +246,7 @@ input, textarea{
     box-shadow: 0 0 5px 0 rgba(000,000,000,0.1);
 }
 
-#user{
+#name{
     background-image: url('../imgs/name.png'), url('../imgs/blue.png');
     background-size: auto auto, 35px 100%;
     background-position: 6px center, left top;
@@ -229,8 +272,9 @@ input, textarea{
     height:100px;
     padding-top:10px;
 }
-#send{width:336px;background:white;color:#9d9d9d;padding:0;}
-#send:hover{opacity:0.7;}
+#submit_btn{width:336px;background:white;color:#9d9d9d;padding:0;margin-top:-15px;}
+#submit_btn:hover{opacity:0.7;}
+
 ::-webkit-input-placeholder {
    font-family: 'Din Neue Bold';
    font-size:16px;

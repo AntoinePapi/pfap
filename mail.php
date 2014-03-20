@@ -2,8 +2,8 @@
 $msg_erreur = "Error. Missing Fields:<br/><br/>";
 $msg_ok = "Your message has been send. Thanks.";
 $message = $msg_erreur;
-define('MAIL_DESTINATAIRE','louis.serre@gmail.com'); // remplacer par votre email
-define('MAIL_SUJET','Message du formulaire de louisserre.com');
+define('MAIL_DESTINATAIRE','romain.barbier@mail.com'); // remplacer par votre email
+define('MAIL_SUJET','Message du formulaire de antoinepapi.com');
 // vérification des champs
 if (empty($_POST['user'])){
 	$message .= "Your name is missing<br/>";
