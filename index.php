@@ -47,7 +47,7 @@ $(document).ready(function(){
     document.getElementById('storm').className='active selector-projects';
     }, { offset: 170 
 });  
-    $('#contact').waypoint(function() {
+    $('#firstwork').waypoint(function() {
     document.getElementById('storm').className='active selector-contact';
     }, { offset: 170 
 });    
@@ -148,29 +148,40 @@ $(document).ready(function() {
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
-          <div class="project-square"></div>
+          <div id="firstwork" class="project-square"></div>
           <div class="project-square center-square"></div>
           <div class="project-square"></div>
         </div>
         <div id="contact">
-          <p class="title">Get in touch!</p>
-          <fieldset id="contact_form">
-              <div id="result"></div>
-              <input type="text" name="name" id="name" placeholder="Name:" />
-              </label>
-              
-              <input type="text" name="email" id="email" placeholder="E-mail:" />
-              </label>
-              
-              <textarea name="message" id="message" placeholder="Message:"></textarea>
-              </label>
-              
-              <label><span>&nbsp;</span>
-              <button class="submit_btn" id="submit_btn">Submit</button>
-              </label>
-          </fieldset>
+          <div id="contact_recip">
+            <p class="title">Get in touch!</p>
+            <p class="subtitle">Send me an e-mail</p>
+            <fieldset id="contact_form">
+                <div id="result"></div>
+                <input type="text" name="name" id="name" placeholder="Name:" />
+                </label>
+                
+                <input type="text" name="email" id="email" placeholder="E-mail:" />
+                </label>
+                
+                <textarea name="message" id="message" placeholder="Message:"></textarea>
+                </label>
+                
+                <label><span>&nbsp;</span>
+                <button class="submit_btn" id="submit_btn">Submit</button>
+                </label>
+            </fieldset>
 
-        </div>
+            <div id="coords">
+              <p class="subtitle">Infos</p>
+              <p class="infos">antoine.papi@gmail.com    06.18.24.02.15</p>
+              <p class="infos">Paris 7eme / Saint-Mandé</p>
+              <a href="#" class="social-icons"><img src="imgs/cv.png" alt="cv"/></a>
+              <a href="#" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
+              <a href="#" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
+            </div> <!-- end of coords -->
+          </div> <!-- end of contact-recipe -->
+        </div> <!-- end of contact -->
       </div><!-- enf of all -->
 </body>
 </html>

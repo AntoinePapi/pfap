@@ -105,7 +105,7 @@ h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
 
 /* TRANSITIONS TRANSITIONS TRANSITIONS */
 
-#send,.project-square, #explore, .selector-about, .selector-projects, .selector-contact{
+.social-icons, #send,.project-square, #explore, .selector-about, .selector-projects, .selector-contact{
     -webkit-transition: all 200ms ease-in;
 -moz-transition: all 200ms ease-in;
 -ms-transition: all 200ms ease-in;
@@ -188,9 +188,11 @@ transition: all 200ms ease-in;
     text-align:center;
     padding-top:70px;
     padding-bottom:70px;
+    font-family: 'Din Neue Bold';
+    font-size: 20px;
 }
 #contact p{color:white;}
-
+#contact_recip{width:940px;margin:0 auto;}
 
 
 /* CONTACT FORM CONTACT FORM CONTACT FORM CONTACT FORM  */
@@ -240,7 +242,7 @@ transition: all 200ms ease-in;
 }
 
 /* form */
-#contact_form{width:335px; border:none;font-family: 'Din Neue Bold';margin-left:65px;}
+#contact_form{width:335px; border:none;font-family: 'Din Neue Bold';}
 
 input, textarea, #submit_btn{
     border-radius:4px;
@@ -305,11 +307,12 @@ input, textarea, #submit_btn{
    font-size:16px;
 }
 
+.subtitle{font-size:20px;text-align:left;margin-left:35px;margin-bottom:25px;}
 
-
-
-
-
+#coords{width:300px;float:right;margin-top:-340px;text-align:left;}
+.social-icons{float:left;}
+.social-icons:hover{opacity:0.7;}
+.infos{margin-bottom:35px;}
 
 
 
