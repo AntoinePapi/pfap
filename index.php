@@ -145,6 +145,7 @@ $(document).ready(function() {
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
+        <div id="case-study" class="unfold"></div>
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
@@ -182,6 +183,8 @@ $(document).ready(function() {
             </div> <!-- end of coords -->
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
+        
+
       </div><!-- enf of all -->
 </body>
 </html>
