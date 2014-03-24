@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/mfglabs_iconset.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/projects.js" type="text/javascript"></script>
 <script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <link rel="icon" href="favicon.ico" />
 	
@@ -145,11 +146,13 @@ $(document).ready(function() {
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
-        <div id="case-study" class="unfold"></div>
+        <div id="case-study" class="fold">
+          <div id="border-left"></div>
+        </div>
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
-          <div id="firstwork" class="project-square"></div>
+          <div id="firstwork" onclick="OpenProject1()" class="project-square"></div>
           <div class="project-square center-square"></div>
           <div class="project-square"></div>
         </div>
