@@ -133,7 +133,7 @@ $(document).ready(function() {
           <ul>
             <li class="toplink first"><div id="storm2" class="topbutton"><a href="#about">about</a><div id="storm" class="active selector-about"></div></div></li>
             <li class="toplink inactive"><div class="topbutton"><a href="#projects">projects</a></div></li>
-            <li class="toplink inactive"><div class="topbutton"><a href="#contact">contact</a></div></li>
+            <li class="toplink inactive"><div class="topbutton"><a href="#contact" onclick="document.getElementById('storm').className='active selector-contact';">contact</a></div></li>
           </ul>
           <div id="topbar-margin" class="off"></div>
         </div> <!-- end of topbar-->
