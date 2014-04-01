@@ -178,7 +178,7 @@ transition: all 200ms ease-in;
     margin-top:62px;
     margin-bottom: 70px;
 }
-.project-square:hover{opacity:0.5;}
+.project-square:hover{opacity:0.5;cursor:pointer;}
 .center-square{margin-left:20px;margin-right:20px;}
 
 #firstwork{
