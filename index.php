@@ -146,15 +146,24 @@ $(document).ready(function() {
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
-        <div id="case-study" class="fold">
-          <div id="border-left"></div>
+        <div id="case-study-1" class="fold">
+          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <img src="imgs/tumblr.jpg" alt="bitch"/>
+        </div>
+        <div id="case-study-2" class="fold">
+          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <img src="imgs/tumblr2.jpg" alt="bitch"/>
+        </div>
+        <div id="case-study-3" class="fold">
+          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <img src="imgs/tumblr3.jpg" alt="bitch"/>
         </div>
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
           <div id="firstwork" onclick="OpenProject1()" class="project-square"></div>
-          <div class="project-square center-square"></div>
-          <div class="project-square"></div>
+          <div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div>
+          <div id="thirdwork" onclick="OpenProject3()" class="project-square"></div>
         </div>
         <div id="contact">
           <div id="contact_recip">
