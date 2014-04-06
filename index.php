@@ -146,14 +146,63 @@ $(document).ready(function() {
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
+
         <div id="case-study-1" class="fold">
+          <p class="cs_title"> Street Message </p>
+          <p class="job_title"> school project UX/UI design </p>
+          <p class="description"> Street message is a school project that we made in group of 5 people,
+            during 2 weeks. It’s an application who allow you to post a geolocated message directly in
+            the street. Other people can see this message, and respond to it when they close enough. </p>
+
+
+
+          <div id="img_cs" class="cf">
+              <img class="first1" src="imgs/SM_1.png">
+             <p class="comment_cs"> See all the message close to you, and all the response people let on your own message.</p>   
+          </div>
+
+          <div id="img_cs1" class="cf">
+          <img class="second" src="imgs/SM_2.png">
+          <p class="comment_cs1"> Localize directly in the app </p>
+          </div>
+
+          <img class="third" src="imgs/styley.png">
+
+          <div id="player">
+          <p class="player_cs"> Here is a motion i made for this project </p>
+          <iframe src="//player.vimeo.com/video/89328064" width="660" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          
+          </div>
+
           <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
-          <img src="imgs/tumblr.jpg" alt="bitch"/>
         </div>
+
+
+
+
+
         <div id="case-study-2" class="fold">
+          <p class="cs_title"> Redesign Wikipedia </p>
+          <p class="job_title"> school project UX/UI design </p>
+          <p class="description"> Redesign Wikipedia, during a 4 hours exam. I have to make the site easier to read and to watch. </p>
+
+           <div id="img_cs" class="cf">
+              <img class="img_wk" src="imgs/WK_1.png">
+             <p class="comment_wk"> Invit users to contribute more</p>   
+          </div>
+
+            <div id="img_cs1" class="cf">
+          <img class="img_wk1" src="imgs/WK_2.png">
+          <p class="comment_wk1"> Readybility need organization, space </p>
+          </div>
+
           <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
-          <img src="imgs/tumblr2.jpg" alt="bitch"/>
         </div>
+
+
+
+
+
         <div id="case-study-3" class="fold">
           <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
           <img src="imgs/tumblr3.jpg" alt="bitch"/>

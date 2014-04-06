@@ -95,7 +95,7 @@ h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
     margin-left:-90px;
     border:solid 2px #ffffff;
     font-family: 'Din Neue Bold';
-    font-size:24px;
+    font-size:20    px;
     color:#ffffff;
     text-align:center;
     line-height:60px;
@@ -124,6 +124,7 @@ transition: all 200ms ease-in;
     border-bottom:solid 3px #2d3339;
     background:white;
 }
+
 .relative{position:relative;}
 .fixed{position:fixed; top:0;z-index:100;width:100%;}
 #topbar ul{width:360px;margin:0 auto;}
@@ -342,7 +343,7 @@ transition: all 500ms ease-out;
 
 #case-study-1, #case-study-2, #case-study-3{
     width:960px;
-    height:800px;
+    height:2000px;
     background:#f9f5f5;
     position:absolute;
     z-index:110;
@@ -368,6 +369,113 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 .close-project:hover{cursor:pointer;}
 
 
+.cs_title{
+    font-family: 'Adam Regular';
+    color:#212121;
+    font-size:44px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.job_title{
+    font-family: 'Din Neue Bold';
+    color:#212121;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.description{
+    font-family: 'Din Neue Bold';
+    color:#212121;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 60px; 
+    text-align: center;
+    font-size: 22px;
+}
+
+.first1{
+    float: left;
+    padding-left: 170px;
+    padding-top: 50px;
+}
+
+.comment_cs{
+    font-family: 'Din Neue Light';
+    font-size: 20px;
+    color: #b7b7b8;
+    width: 190px;
+    float: left;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 140px;
+}
+
+.second{
+     float:right;
+     padding-right: 100px;
+}
+.comment_cs1{
+    font-family: 'Din Neue Light';
+    font-size: 20px;
+    color:#b7b7b8;
+    width: 190px;
+    float:left;
+    padding-left: 250px;
+    padding-top: 200px;
+}
+
+
+#img_cs{
+    clear: both;
+    display: block;
+}
+
+#img_cs1{
+    clear:both;
+    display: block;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+.third{
+    padding-left: 220px;
+    padding-top: 100px;
+}
+
+#player{
+    padding-left: 140px; 
+    padding-bottom: 100px;
+    padding-top: 100px;   
+}
+
+.player_cs{
+    font-family: 'Din Neue Light';
+    font-size: 22px;
+    color:#212121;
+    padding-left: 90px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -375,7 +483,37 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 
 
+/* CASE STUDY 2 */
 
+.img_wk{
+    padding-top: 100px;
+}
+
+.comment_wk{
+    font-family: 'Din Neue Light';
+    font-size: 20px;
+    color:#b7b7b8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.img_wk1{
+    float: right;
+
+}
+
+.comment_wk1{
+    float: left;
+    font-family: 'Din Neue Light';
+    font-size: 20px;
+    color:#b7b7b8;
+    width: 190px;
+    float:left;
+    padding-left: 120px;
+    padding-top: 320px;
+}
 
 
 
