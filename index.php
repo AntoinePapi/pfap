@@ -174,7 +174,7 @@ $(document).ready(function() {
           
           </div>
 
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
         </div>
 
 
@@ -196,7 +196,7 @@ $(document).ready(function() {
           <p class="comment_wk1"> Readybility need organization, space </p>
           </div>
 
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
         </div>
 
 
@@ -204,15 +204,15 @@ $(document).ready(function() {
 
 
         <div id="case-study-3" class="fold">
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
+          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
           <img src="imgs/tumblr3.jpg" alt="bitch"/>
         </div>
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
-          <div id="firstwork" onclick="OpenProject1()" class="project-square"></div>
-          <div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div>
-          <div id="thirdwork" onclick="OpenProject3()" class="project-square"></div>
+          <a href="#projects"><div id="firstwork" onclick="OpenProject1()" class="project-square"></div></a>
+          <a href="#projects"><div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div></a>
+          <a href="#projects"><div id="thirdwork" onclick="OpenProject3()" class="project-square"></div></a>
         </div>
         <div id="contact">
           <div id="contact_recip">
