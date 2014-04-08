@@ -52,6 +52,31 @@ $(document).ready(function(){
     document.getElementById('storm').className='active selector-contact';
     }, { offset: 170 
 });    
+
+    $('#close-project-1').waypoint(function() {
+    document.getElementById('close-project-1').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-1').waypoint(function() {
+    document.getElementById('close-project-1').className='close-project';
+    }, { offset: 21 
+});   
+    $('#close-project-2').waypoint(function() {
+    document.getElementById('close-project-2').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-2').waypoint(function() {
+    document.getElementById('close-project-2').className='close-project';
+    }, { offset: 21 
+});   
+    $('#close-project-3').waypoint(function() {
+    document.getElementById('close-project-3').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-3').waypoint(function() {
+    document.getElementById('close-project-3').className='close-project';
+    }, { offset: 21 
+});    
   
 });
 </script> 
@@ -174,7 +199,7 @@ $(document).ready(function() {
           
           </div>
 
-          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+          <a href="#projects"><img id="close-project-1" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
         </div>
 
 
@@ -196,7 +221,7 @@ $(document).ready(function() {
           <p class="comment_wk1"> Readybility need organization, space </p>
           </div>
 
-          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+          <a href="#projects"><img id="close-project-2" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
         </div>
 
 
@@ -204,7 +229,7 @@ $(document).ready(function() {
 
 
         <div id="case-study-3" class="fold">
-          <a href="#projects"><img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+          <a href="#projects"><img id="close-project-3" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
           <img src="imgs/tumblr3.jpg" alt="bitch"/>
         </div>
         <div id="projects">

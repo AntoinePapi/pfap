@@ -366,7 +366,14 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     right:20px;
     top:20px;
 }
-.close-project:hover{cursor:pointer;}
+.close-project:hover, .close-fixed:hover{cursor:pointer;}
+.close-fixed{
+    position:fixed;
+    top:20px;
+    right:50%;
+    margin-right:-460px;
+    z-index:200;
+}
 
 
 .cs_title{
