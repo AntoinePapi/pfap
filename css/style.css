@@ -330,10 +330,14 @@ input, textarea, #submit_btn{
 .social-icons:hover{opacity:0.7;}
 .infos{margin-bottom:35px;}
 
+
+
+
+
 /* CASE STUDY CASE STUDY CASE STUDY */
 
 
-#case-study, .fold, .unfold{
+#case-study, .fold, .unfold, .obscur-on-1, .obscur-on-2{
     -webkit-transition: all 500ms ease-out;
 -moz-transition: all 500ms ease-out;
 -ms-transition: all 500ms ease-out;
@@ -341,12 +345,25 @@ input, textarea, #submit_btn{
 transition: all 500ms ease-out;
 }
 
+
+#obscur{
+    width:100%;
+    height:100%;
+    background-color:black;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:110;
+}
+.obscur-on-1{opacity:0;}
+.obscur-on-2{opacity:0.5;}
+
 #case-study-1, #case-study-2, #case-study-3{
     width:960px;
     height:2000px;
     background:#f9f5f5;
     position:absolute;
-    z-index:110;
+    z-index:120;
     left:50%;
     margin-left:-480px;
 }
@@ -372,7 +389,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     top:20px;
     right:50%;
     margin-right:-460px;
-    z-index:200;
+    z-index:130;
 }
 
 
@@ -521,8 +538,6 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     padding-left: 120px;
     padding-top: 320px;
 }
-
-
 
 
 
