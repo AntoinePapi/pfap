@@ -13,6 +13,7 @@
 <script src="js/scroll.js" type="text/javascript"></script>
 <script src="js/projects.js" type="text/javascript"></script>
 <script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/anims.js" type="text/javascript" charset="utf-8"></script>
 <link rel="icon" href="favicon.ico" />
 	
 <title>Antoine Papi</title>
@@ -173,6 +174,7 @@ $(document).ready(function() {
         </div>
           <div id="case-study-1" class="fold">
             <p class="cs_title"> Street Message </p>
+            <div class="circle"></div>
             <p class="job_title"> school project UX/UI design </p>
             <p class="description"> Street message is a school project that we made in group of 5 people,
               during 2 weeks. It’s an application who allow you to post a geolocated message directly in
@@ -181,23 +183,24 @@ $(document).ready(function() {
 
 
             <div id="img_cs" class="cf">
-                <img class="first1" src="imgs/SM_1.png">
+                <img id="first1" class="off-anim" src="imgs/SM_1.png">
                <p class="comment_cs"> See all the message close to you, and all the response people let on your own message.</p>   
             </div>
 
+            
             <div id="img_cs1" class="cf">
-            <img class="second" src="imgs/SM_2.png">
+            <img id="second"  class="off-anim" src="imgs/SM_2.png">
             <p class="comment_cs1"> Localize directly in the app </p>
             </div>
+
 
             <img class="third" src="imgs/styley.png">
 
             <div id="player">
             <p class="player_cs"> Here is a motion i made for this project </p>
             <iframe src="//player.vimeo.com/video/89328064" width="660" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            
             </div>
-
+            
             <a href="#projects"><img id="close-project-1" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
           </div>
 
@@ -215,12 +218,14 @@ $(document).ready(function() {
              <p class="comment_wk"> Invit users to contribute more</p>   
           </div>
 
+           
             <div id="img_cs1" class="cf">
           <img class="img_wk1" src="imgs/WK_2.png">
           <p class="comment_wk1"> Readybility need organization, space </p>
           </div>
 
           <a href="#projects"><img id="close-project-2" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+               
         </div>
 
 

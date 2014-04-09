@@ -47,6 +47,7 @@
 }
 
 
+
 /* CSS CSS CSS */
 
 html, body{
@@ -95,7 +96,7 @@ h2{font-size:35px;text-transform: uppercase;float:left;margin-left:20px;}
     margin-left:-90px;
     border:solid 2px #ffffff;
     font-family: 'Din Neue Bold';
-    font-size:20    px;
+    font-size:20px;
     color:#ffffff;
     text-align:center;
     line-height:60px;
@@ -360,7 +361,7 @@ transition: all 500ms ease-out;
 
 #case-study-1, #case-study-2, #case-study-3{
     width:960px;
-    height:2000px;
+    height:2500px;
     background:#f9f5f5;
     position:absolute;
     z-index:120;
@@ -393,12 +394,30 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 
+/* CASE STUDY 1 */
+.cs_title, .job_title, .description, .first1-pre, .first1-after, .comment_cs, .comment_cs1, #second, .third, #player, .player_cs, .playerbit, .circle {position:absolute;}
+
 .cs_title{
     font-family: 'Adam Regular';
+    width: 780px;
     color:#212121;
     font-size:44px;
     text-align: center;
-    padding-top: 45px;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    border-bottom: 1px solid #212121;
+    padding-bottom: 8px;
+}
+
+.circle{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: solid 8px #f9f5f5;
+    background: #212121;
+    top: 87px;
+    left: 480px;
 }
 
 .job_title{
@@ -406,99 +425,63 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     color:#212121;
     font-size: 22px;
     text-align: center;
-    margin-top: 60px;
     text-transform: uppercase;
+    top: 140px;
+    left: 355px;
 }
 
 .description{
     font-family: 'Din Neue Bold';
     color:#212121;
     width: 500px;
-    margin: 0 auto;
-    padding-top: 60px; 
     text-align: center;
     font-size: 22px;
+    top: 200px;
+    left: 250px;
 }
 
-.first1{
-    float: left;
-    padding-left: 170px;
-    padding-top: 50px;
-}
+
 
 .comment_cs{
     font-family: 'Din Neue Light';
     font-size: 20px;
     color: #b7b7b8;
     width: 190px;
-    float: left;
     text-align: center;
-    padding-top: 200px;
-    padding-left: 140px;
+    top: 530px;
+    left: 565px;
 }
 
-.second{
-     float:right;
-     padding-right: 100px;
+#second{
+    top: 860px;
+    left: 570px;
 }
+
 .comment_cs1{
     font-family: 'Din Neue Light';
     font-size: 20px;
     color:#b7b7b8;
     width: 190px;
-    float:left;
-    padding-left: 250px;
-    padding-top: 200px;
+    left: 190px;
+    top: 1000px;
 }
-
-
-#img_cs{
-    clear: both;
-    display: block;
-}
-
-#img_cs1{
-    clear:both;
-    display: block;
-}
-
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
-
 
 .third{
-    padding-left: 220px;
-    padding-top: 100px;
+    left: 200px;
+    top: 1360px;
 }
 
 #player{
-    padding-left: 140px; 
-    padding-bottom: 100px;
-    padding-top: 100px;   
+    left: 150px; 
+    top: 1980px;   
 }
 
 .player_cs{
     font-family: 'Din Neue Light';
     font-size: 22px;
     color:#212121;
-    padding-left: 90px;
-    padding-bottom: 30px;
+    top: 1800px;
+
 }
 
 
@@ -509,8 +492,11 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 /* CASE STUDY 2 */
 
+.img_wk, .comment_wk, .img_wk1, .comment_wk1 {position:absolute;}
+
 .img_wk{
-    padding-top: 100px;
+    top: 300px;
+    left: 90px;
 }
 
 .comment_wk{
@@ -518,26 +504,60 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     font-size: 20px;
     color:#b7b7b8;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    top: 390px;
+    left:350px;
 }
 
-
 .img_wk1{
-    float: right;
-
+    top : 500px;
+    left: 115px;
 }
 
 .comment_wk1{
-    float: left;
     font-family: 'Din Neue Light';
     font-size: 20px;
     color:#b7b7b8;
     width: 190px;
-    float:left;
-    padding-left: 120px;
-    padding-top: 320px;
+    left: 370px;
+    top: 1750px;
 }
+
+
+
+/* ANIM CASE STUDY */
+
+.off-anim{opacity:0;}
+.on-anim{opacity:1;}
+
+
+#first1{
+    position:absolute;
+    top: 400px;
+    left: 130px;
+}
+
+.first1-after{
+    margin-left:40px;
+}
+
+.second-after{
+    margin-left: -30px;
+}
+
+#first1, .off-anim, .on-anim, .first1-after, #second, .second-after{
+
+    -webkit-transition: all 350ms ease-in;
+-moz-transition: all 350ms ease-in;
+-ms-transition: all 350ms ease-in;
+-o-transition: all 350ms ease-in;
+transition: all 350ms ease-in;
+}
+
+
+
+
+
+
 
 
 
