@@ -80,7 +80,42 @@ $(document).ready(function(){
   
 });
 </script> 
-<script type="text/javascript">
+<script> /* FORMULAIRE MAIL MORISSEAU */
+      $("form").submit(function(e){
+        e.preventDefault();
+        sendMail();
+      });
+
+
+sendMail = function() {
+  var mess = $("#message").val();
+  var name = $("#name").val();
+  var mail = $("#email").val();
+  if(//tests de tes différentes valeurs, si ça te convient)
+  {
+    var params="nom=" + name + "&email=" + mail + "&message=" + mess;
+    $.ajax({
+      url:"send.php",
+      method:"post",
+      data:params
+    })
+    .success(function(data){
+      //Affichage d'un message en mode "Merci pour ton message dude"
+      //On vide tout les champs pour dire que c'est envoyé
+      $("#name").val("");
+      $("#email").val("");
+      $("#message").val("");
+    })
+    .fail(function(){
+      //Affichage d'un message en mode "Oups, erreur d'envoi"
+    });
+  }
+  else {
+    //Affichage d'un message en mode "Faut tout remplir"
+  }
+};
+</script>
+<!-- OLD MAIL JS <script type="text/javascript">
 $(document).ready(function() {
 
     $("#submit_btn").click(function() { 
@@ -140,7 +175,7 @@ $(document).ready(function() {
     });
     
 });
-</script>
+</script> -->
 </head>
 <body>
   
@@ -242,21 +277,23 @@ $(document).ready(function() {
           <div id="contact_recip">
             <p class="title">Get in touch!</p>
             <p class="subtitle">Send me an e-mail</p>
+            <form action="send.php" method="post">
             <fieldset id="contact_form">
                 <div id="result"></div>
                 <input type="text" name="name" id="name" placeholder="Name:" />
                 </label>
                 
-                <input type="text" name="email" id="email" placeholder="E-mail:" />
+                <input type="email" name="email" id="email" placeholder="E-mail:" />
                 </label>
                 
                 <textarea name="message" id="message" placeholder="Message:"></textarea>
                 </label>
                 
                 <label><span>&nbsp;</span>
-                <button class="submit_btn" id="submit_btn">Submit</button>
+                <input type="submit" class="submit_btn" id="submit_btn" value="Send"></button>
                 </label>
             </fieldset>
+            </form>
 
             <div id="coords">
               <p class="subtitle">Infos</p>
@@ -268,6 +305,16 @@ $(document).ready(function() {
             </div> <!-- end of coords -->
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
+
+        <!-- <form action="send.php" method="post">
+          <input type="text" id="name" name="name" placeholder="Name" />
+          
+          <input type="email" id="email" name="email" placeholder="Email" />
+          
+          <textarea name="message" id="message" rows="8" cols="40" placeholder="Hi,"></textarea>
+
+          <input type="submit" value="Send">
+        </form> -->
         
 
       </div><!-- enf of all -->
