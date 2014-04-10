@@ -317,10 +317,10 @@ $(document).ready(function() {
             <div id="coords">
               <p class="subtitle">Infos</p>
               <p class="infos">antoine.papi@gmail.com    06.18.24.02.15</p>
-              <p class="infos">Paris 7eme / Saint-Mandé</p>
+              <p class="infos">Paris 7eme</p>
               <a href="#" class="social-icons"><img src="imgs/cv.png" alt="cv"/></a>
-              <a href="#" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
-              <a href="#" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
+              <a href="https://twitter.com/AntoinePapi" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
+              <a href="https://www.linkedin.com/profile/view?id=256610287&trk=nav_responsive_tab_profile_pic" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
             </div> <!-- end of coords -->
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
