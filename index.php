@@ -180,24 +180,22 @@ $(document).ready(function() {
               during 2 weeks. It’s an application who allow you to post a geolocated message directly in
               the street. Other people can see this message, and respond to it when they close enough. </p>
 
-
-
             <div id="img_cs" class="cf">
                 <img id="first1" class="off-anim" src="imgs/SM_1.png">
                <p class="comment_cs"> See all the message close to you, and all the response people let on your own message.</p>   
             </div>
-
             
             <div id="img_cs1" class="cf">
             <img id="second"  class="off-anim" src="imgs/SM_2.png">
             <p class="comment_cs1"> Localize directly in the app </p>
             </div>
 
-
             <img class="third" src="imgs/styley.png">
 
-            <div id="player">
-            <p class="player_cs"> Here is a motion i made for this project </p>
+             <p class="player_cs"> Here is a motion i made for this project </p>
+
+              <div id="player">
+      
             <iframe src="//player.vimeo.com/video/89328064" width="660" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
             
@@ -205,11 +203,9 @@ $(document).ready(function() {
           </div>
 
 
-
-
-
         <div id="case-study-2" class="fold">
           <p class="cs_title"> Redesign Wikipedia </p>
+           <div class="circle"></div>
           <p class="job_title"> school project UX/UI design </p>
           <p class="description"> Redesign Wikipedia, during a 4 hours exam. I have to make the site easier to read and to watch. </p>
 
@@ -219,23 +215,41 @@ $(document).ready(function() {
           </div>
 
            
-            <div id="img_cs1" class="cf">
+          <div id="img_cs1" class="cf">
           <img class="img_wk1" src="imgs/WK_2.png">
-          <p class="comment_wk1"> Readybility need organization, space </p>
+          <p class="comment_wk1"> Typography is my first love, i like to work on it   </p>
           </div>
+
+          <img id="img_wk2" class="off-anim" src="imgs/WK_3.png">
+          <p class="comment_wk2"> Regroup all the informations in small places </p>
 
           <a href="#projects"><img id="close-project-2" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
                
         </div>
 
-
-
-
-
         <div id="case-study-3" class="fold">
+          <p class="cs_title"> BasketUSA app redesign </p>
+           <div class="circle"></div>
+          <p class="job_title"> Personnal project UX/UI design </p>
+          <p class="description"> BasketUSA is the reference in basket informations. I redesign the application to make it more intuitive. </p>
+
+           <img id="img_busa" class="off-anim" src="imgs/busa_1.png">
+          <p class="comment_busa"> Purify informations and go to the fundamental </p>
+
+            <img id="img_busa1" class="off-anim" src="imgs/busa_2.png">
+          <p class="comment_busa1"> Make the whole article more readable </p>
+
+            <img id="img_busa2" class="off-anim" src="imgs/busa_3.png">
+          <p class="comment_busa2"> Help the user to find information quickly </p>
+
+           <img class="img_busamo" src="imgs/busa_mo.png">
+
+
+
+
           <a href="#projects"><img id="close-project-3" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
-          <img src="imgs/tumblr3.jpg" alt="bitch"/>
         </div>
+
         <div id="projects">
           <p class="title">Some projects</p>
           <p>Here you can check some of projects i made in school or for myself.</p>
