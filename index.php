@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/mfglabs_iconset.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
 <script src="js/projects.js" type="text/javascript"></script>
 <script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/anims.js" type="text/javascript" charset="utf-8"></script>
@@ -81,41 +82,7 @@ $(document).ready(function(){
   
 });
 </script> 
-<script> /* FORMULAIRE MAIL MORISSEAU */
-      $("form").submit(function(e){
-        e.preventDefault();
-        sendMail();
-      });
 
-
-sendMail = function() {
-  var mess = $("#message").val();
-  var name = $("#name").val();
-  var mail = $("#email").val();
-  if(//tests de tes différentes valeurs, si ça te convient)
-  {
-    var params="nom=" + name + "&email=" + mail + "&message=" + mess;
-    $.ajax({
-      url:"send.php",
-      method:"post",
-      data:params
-    })
-    .success(function(data){
-      //Affichage d'un message en mode "Merci pour ton message dude"
-      //On vide tout les champs pour dire que c'est envoyé
-      $("#name").val("");
-      $("#email").val("");
-      $("#message").val("");
-    })
-    .fail(function(){
-      //Affichage d'un message en mode "Oups, erreur d'envoi"
-    });
-  }
-  else {
-    //Affichage d'un message en mode "Faut tout remplir"
-  }
-};
-</script>
 <!-- OLD MAIL JS <script type="text/javascript">
 $(document).ready(function() {
 

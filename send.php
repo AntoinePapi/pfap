@@ -10,7 +10,7 @@
     $headers .='Content-Type: text/plain; charset="utf-8"'."\n"; 
     $headers .='Content-Transfer-Encoding: 8bit'; 
 
-    if(mail('romain.barbier@mail.com', 'Nouveau message depuis votre Portfolio', $message, $headers)) 
+    if(mail('antoine.papi@gmail.com', 'Nouveau message depuis votre Portfolio', $message, $headers)) 
     { 
       $return = "OK";
     } 
