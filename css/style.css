@@ -46,6 +46,12 @@
          url('../fonts/adam/adam.svg#ADAMRegular') format('svg');
 }
 
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('../fonts/open-sans/OpenSans-Light.ttf');
+}
+
+
 
 
 /* CSS CSS CSS */
@@ -184,17 +190,17 @@ transition: all 200ms ease-in;
 .center-square{margin-left:20px;margin-right:20px;}
 
 #firstwork{
-    background-image: url('../imgs/square.png'), url('../imgs/tumblr.jpg');
+    background-image: url('../imgs/square.png'), url('../imgs/sm_expo.png');
     background-position: center center, center center;
     background-repeat: no-repeat;
 }
 #secondwork{
-    background-image: url('../imgs/square.png'), url('../imgs/tumblr2.jpg');
+    background-image: url('../imgs/square.png'), url('../imgs/wiki_expo.png');
     background-position: center center, center center;
     background-repeat: no-repeat;
 }
 #thirdwork{
-    background-image: url('../imgs/square.png'), url('../imgs/tumblr3.jpg');
+    background-image: url('../imgs/square.png'), url('../imgs/busa_expo.png');
     background-position: center center, center center;
     background-repeat: no-repeat;
 }
@@ -324,7 +330,7 @@ input, textarea, #submit_btn{
    font-size:16px;
 }
 
-.subtitle{font-size:20px;text-align:left;margin-left:35px;margin-bottom:25px;}
+.subtitle{font-size:20px;text-align:left;/*margin-left:35px*/;margin-bottom:25px;}
 
 #coords{width:300px;float:right;margin-top:-340px;text-align:left;}
 .social-icons{float:left;}
@@ -449,12 +455,12 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
     width: 190px;
     text-align: center;
     top: 530px;
-    left: 565px;
+    left: 580px;
 }
 
 #second{
     top: 860px;
-    left: 570px;
+    left: 590px;
 }
 
 .comment_cs1{
@@ -578,7 +584,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 .img_busamo{
     top: 2250px;
-    left: 260px;
+    left: 240px;
 }
 
 
@@ -593,7 +599,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 #first1{
     position:absolute;
     top: 400px;
-    left: 130px;
+    left: 150px;
 }
 
 #img_busa{ 
@@ -605,7 +611,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 #img_busa1{
     position: absolute;
     top: 950px;
-    left: 560px;
+    left: 550px;
 }
 
 #img_busa2{
