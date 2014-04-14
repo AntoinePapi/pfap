@@ -47,8 +47,21 @@
 }
 
 @font-face {
-    font-family: 'Open-Sans';
+    font-family: 'Open-Sans Light';
     src: url('../fonts/open-sans/OpenSans-Light.ttf');
+    src: url('../fonts/open-sans/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open-Sans Regular';
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf');
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open-Sans SemiBold';
+    src: url('../fonts/open-sans/OpenSans-Semibold.ttf');
+    src: url('../fonts/open-sans/OpenSans-Semibold.ttf') format('truetype');
 }
 
 
@@ -166,7 +179,7 @@ transition: all 200ms ease-in;
     width:620px;
     margin:0 auto;
     font-size:20px;
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Regular';
     color:#777777;
     line-height: 40px;
 }
@@ -211,8 +224,8 @@ transition: all 200ms ease-in;
     text-align:center;
     padding-top:70px;
     padding-bottom:70px;
-    font-family: 'Din Neue Bold';
-    font-size: 20px;
+    font-family: 'Open-Sans Light';
+    font-size: 16px;
 }
 #contact p{color:white;}
 #contact_recip{width:940px;margin:0 auto;}
@@ -274,7 +287,7 @@ input, textarea, #submit_btn{
     width:289px;
     padding-left:45px;
     margin-bottom:20px;
-    font-family: 'Din Neue Bold';
+    font-family: 'Open-Sans Regular';
     font-size:16px; 
     -webkit-box-shadow: 0 0 5px 0 rgba(000,000,000,0.1);
     box-shadow: 0 0 5px 0 rgba(000,000,000,0.1);
@@ -427,29 +440,30 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .job_title{
-    font-family: 'Din Neue Bold';
+    font-family: 'Open-Sans Regular';
     color:#212121;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    top: 140px;
-    left: 355px;
+    top: 130px;
+    left: 345px;
 }
 
 .description{
-    font-family: 'Din Neue Bold';
+    font-family: 'Open-Sans Regular';
     color:#212121;
     width: 500px;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     top: 200px;
     left: 250px;
+    line-height: 25px;
 }
 
 
 
 .comment_cs{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color: #b7b7b8;
     width: 190px;
@@ -464,7 +478,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .comment_cs1{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     width: 190px;
@@ -483,7 +497,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .player_cs{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Regular';
     font-size: 18px;
     color:#212121;
     top: 1925px;
@@ -507,7 +521,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .comment_wk{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     text-align: center;
@@ -521,7 +535,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .comment_wk1{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     width: 190px;
@@ -535,7 +549,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 }
 
 .comment_wk2{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     width:250px;
@@ -551,7 +565,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 
 .comment_busa{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     top: 550px;
@@ -562,7 +576,7 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 
 .comment_busa1{
-    font-family: 'Din Neue Light';
+    font-family: 'Open-Sans Light';
     font-size: 20px;
     color:#b7b7b8;
     top: 1200px;
@@ -573,8 +587,8 @@ transform: scale(1) rotate(0deg) translateX(-200%) translateY(0px) skewX(0deg) s
 
 
 .comment_busa2{
-    font-family: 'Din Neue Light';
-    font-size: 20px;
+    font-family: 'Open-Sans Light';
+    font-size: 18px;
     color:#b7b7b8;
     top: 1750px;
     left: 560px;

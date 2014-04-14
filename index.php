@@ -169,8 +169,8 @@ $(document).ready(function() {
           <p class="title">About me</p>
           <img src="imgs/antoine.jpg" alt="Antoine Papi"/>
           <p>Hi there,</p>
-          <p>Paris based designer. I’m in love with smart stuff.</p>
-          <p>I really like to optimize the user experience, i like imagine things and have an overall picture of the project.</p>
+          <p> I'm a 22 years old student, currently in my third year at <a href="http://www.hetic.net/">HETIC</a> </p>
+          <p>I really like to optimize the user experience, to innovate and have an overall picture of the project.</p>
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
@@ -178,13 +178,13 @@ $(document).ready(function() {
             <p class="cs_title"> Street Message </p>
             <div class="circle"></div>
             <p class="job_title"> school project UX/UI design </p>
-            <p class="description"> Street message is a school project that we made in group of 5 people,
-              during 2 weeks. It’s an application who allow you to post a geolocated message directly in
-              the street. Other people can see this message, and respond to it when they close enough. </p>
+            <p class="description"> Street Message is a school project that we made in a group of 5
+              during 2 weeks. It’s an application which allows you to post a geolocated message directly in
+              the streets. Other people can see this message, and respond to it when they are close enough. </p>
 
             <div id="img_cs" class="cf">
                 <img id="first1" class="off-anim" src="imgs/SM_1.png">
-               <p class="comment_cs"> See all the message close to you, and all the response people let on your own message.</p>   
+               <p class="comment_cs"> See all the messages around you, and all the responses people gave on the messages you posted.</p>   
             </div>
             
             <div id="img_cs1" class="cf">
@@ -194,7 +194,7 @@ $(document).ready(function() {
 
             <img class="third" src="imgs/styley.png">
 
-             <p class="player_cs"> Here is a motion i made for this project </p>
+             <p class="player_cs"> Here is a motion I made for this project </p>
 
               <div id="player">
       
@@ -209,21 +209,21 @@ $(document).ready(function() {
           <p class="cs_title"> Redesign Wikipedia </p>
            <div class="circle"></div>
           <p class="job_title"> school project UX/UI design </p>
-          <p class="description"> Redesign Wikipedia, during a 4 hours exam. I have to make the site easier to read and to watch. </p>
+          <p class="description"> Redesign Wikipedia, during a 4 hours exam. I had to make the site easier to read and nicer to experience. </p>
 
            <div id="img_cs" class="cf">
               <img class="img_wk" src="imgs/WK_1.png">
-             <p class="comment_wk"> Invit users to contribute more</p>   
+             <p class="comment_wk"> Invite users to contribute more</p>   
           </div>
 
            
           <div id="img_cs1" class="cf">
           <img class="img_wk1" src="imgs/WK_2.png">
-          <p class="comment_wk1"> Typography is my first love, i like to work on it   </p>
+          <p class="comment_wk1"> Typography is my first love, i like to work with it</p>
           </div>
 
           <img id="img_wk2" class="off-anim" src="imgs/WK_3.png">
-          <p class="comment_wk2"> Regroup all the informations in small places </p>
+          <p class="comment_wk2"> Regroup all the informations in one place </p>
 
           <a href="#projects"><img id="close-project-2" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
                
@@ -232,17 +232,17 @@ $(document).ready(function() {
         <div id="case-study-3" class="fold">
           <p class="cs_title"> BasketUSA app redesign </p>
            <div class="circle"></div>
-          <p class="job_title"> Personnal project UX/UI design </p>
-          <p class="description"> BasketUSA is the reference in basket informations. I redesign the application to make it more intuitive. </p>
+          <p class="job_title"> Personal project UX/UI design </p>
+          <p class="description"> BasketUSA is the reference in basket informations. I redesigned the application to make it more intuitive. </p>
 
            <img id="img_busa" class="off-anim" src="imgs/busa_1.png">
-          <p class="comment_busa"> Purify informations and go to the fundamental </p>
+          <p class="comment_busa"> Purify informations and go to the fundamentals </p>
 
             <img id="img_busa1" class="off-anim" src="imgs/busa_2.png">
           <p class="comment_busa1"> Make the whole article more readable </p>
 
             <img id="img_busa2" class="off-anim" src="imgs/busa_3.png">
-          <p class="comment_busa2"> Help the user to find information quickly </p>
+          <p class="comment_busa2"> Help the user find information quickly </p>
 
            <img class="img_busamo" src="imgs/busa_mo.png">
 
@@ -254,14 +254,14 @@ $(document).ready(function() {
 
         <div id="projects">
           <p class="title">Some projects</p>
-          <p>Here you can check some of projects i made in school or for myself.</p>
+          <p>Here you can check some projects i made in school or for myself.</p>
           <a href="#projects"><div id="firstwork" onclick="OpenProject1()" class="project-square"></div></a>
           <a href="#projects"><div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div></a>
           <a href="#projects"><div id="thirdwork" onclick="OpenProject3()" class="project-square"></div></a>
         </div>
         <div id="contact">
           <div id="contact_recip">
-            <p class="title">Get in touch!</p>
+            <p class="title">Get in touch !</p>
             <p class="subtitle">Send me an e-mail</p>
             <form action="send.php" method="post">
             <fieldset id="contact_form">
