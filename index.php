@@ -11,8 +11,10 @@
 <link rel="stylesheet" href="css/mfglabs_iconset.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
 <script src="js/projects.js" type="text/javascript"></script>
 <script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/anims.js" type="text/javascript" charset="utf-8"></script>
 <link rel="icon" href="favicon.ico" />
 	
 <title>Antoine Papi</title>
@@ -52,10 +54,36 @@ $(document).ready(function(){
     document.getElementById('storm').className='active selector-contact';
     }, { offset: 170 
 });    
+
+    $('#close-project-1').waypoint(function() {
+    document.getElementById('close-project-1').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-1').waypoint(function() {
+    document.getElementById('close-project-1').className='close-project';
+    }, { offset: 21 
+});   
+    $('#close-project-2').waypoint(function() {
+    document.getElementById('close-project-2').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-2').waypoint(function() {
+    document.getElementById('close-project-2').className='close-project';
+    }, { offset: 21 
+});   
+    $('#close-project-3').waypoint(function() {
+    document.getElementById('close-project-3').className='close-fixed';
+    }, { offset: 20 
+});   
+    $('#close-project-3').waypoint(function() {
+    document.getElementById('close-project-3').className='close-project';
+    }, { offset: 21 
+});    
   
 });
 </script> 
-<script type="text/javascript">
+
+<!-- OLD MAIL JS <script type="text/javascript">
 $(document).ready(function() {
 
     $("#submit_btn").click(function() { 
@@ -115,11 +143,11 @@ $(document).ready(function() {
     });
     
 });
-</script>
+</script> -->
 </head>
 <body>
   
-
+      <div id="obscur" class="off"></div>
       <div id="intro">
         <h1>Antoine Papi</h1>
         <div id="explore">
@@ -141,60 +169,138 @@ $(document).ready(function() {
           <p class="title">About me</p>
           <img src="imgs/antoine.jpg" alt="Antoine Papi"/>
           <p>Hi there,</p>
-          <p>Paris based designer. I’m in love with smart stuff.</p>
-          <p>I really like to optimize the user experience, i like imagine things and have an overall picture of the project.</p>
+          <p> I'm a 22 years old student, currently in my third year at <a href="http://www.hetic.net/">HETIC</a> </p>
+          <p>I really like to optimize the user experience, to innovate and have an overall picture of the project.</p>
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
         </div>
-        <div id="case-study-1" class="fold">
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
-          <img src="imgs/tumblr.jpg" alt="bitch"/>
-        </div>
+          <div id="case-study-1" class="fold">
+            <p class="cs_title"> Street Message </p>
+            <div class="circle"></div>
+            <p class="job_title"> school project UX/UI design </p>
+            <p class="description"> Street Message is a school project that we made in a group of 5
+              during 2 weeks. It’s an application which allows you to post a geolocated message directly in
+              the streets. Other people can see this message, and respond to it when they are close enough. </p>
+
+            <div id="img_cs" class="cf">
+                <img id="first1" class="off-anim" src="imgs/SM_1.png">
+               <p class="comment_cs"> See all the messages around you, and all the responses people gave on the messages you posted.</p>   
+            </div>
+            
+            <div id="img_cs1" class="cf">
+            <img id="second"  class="off-anim" src="imgs/SM_2.png">
+            <p class="comment_cs1"> Localize directly in the app </p>
+            </div>
+
+            <img class="third" src="imgs/styley.png">
+
+             <p class="player_cs"> Here is a motion I made for this project </p>
+
+              <div id="player">
+      
+            <iframe src="//player.vimeo.com/video/89328064" width="660" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            
+            <a href="#projects"><img id="close-project-1" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+          </div>
+
+
         <div id="case-study-2" class="fold">
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
-          <img src="imgs/tumblr2.jpg" alt="bitch"/>
+          <p class="cs_title"> Redesign Wikipedia </p>
+           <div class="circle"></div>
+          <p class="job_title"> school project UX/UI design </p>
+          <p class="description"> Redesign Wikipedia, during a 4 hours exam. I had to make the site easier to read and nicer to experience. </p>
+
+           <div id="img_cs" class="cf">
+              <img class="img_wk" src="imgs/WK_1.png">
+             <p class="comment_wk"> Invite users to contribute more</p>   
+          </div>
+
+           
+          <div id="img_cs1" class="cf">
+          <img class="img_wk1" src="imgs/WK_2.png">
+          <p class="comment_wk1"> Typography is my first love, i like to work with it</p>
+          </div>
+
+          <img id="img_wk2" class="off-anim" src="imgs/WK_3.png">
+          <p class="comment_wk2"> Regroup all the informations in one place </p>
+
+          <a href="#projects"><img id="close-project-2" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
+               
         </div>
+
         <div id="case-study-3" class="fold">
-          <img class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/>
-          <img src="imgs/tumblr3.jpg" alt="bitch"/>
+          <p class="cs_title"> BasketUSA app redesign </p>
+           <div class="circle"></div>
+          <p class="job_title"> Personal project UX/UI design </p>
+          <p class="description"> BasketUSA is the reference in basket informations. I redesigned the application to make it more intuitive. </p>
+
+           <img id="img_busa" class="off-anim" src="imgs/busa_1.png">
+          <p class="comment_busa"> Purify informations and go to the fundamentals </p>
+
+            <img id="img_busa1" class="off-anim" src="imgs/busa_2.png">
+          <p class="comment_busa1"> Make the whole article more readable </p>
+
+            <img id="img_busa2" class="off-anim" src="imgs/busa_3.png">
+          <p class="comment_busa2"> Help the user find information quickly </p>
+
+           <img class="img_busamo" src="imgs/busa_mo.png">
+
+
+
+
+          <a href="#projects"><img id="close-project-3" class="close-project" src="imgs/close.png" alt="Close Case Study" onclick="CloseProject()"/></a>
         </div>
+
         <div id="projects">
           <p class="title">Some projects</p>
-          <p>Here you can check some of projects i made in school or for myself.</p>
-          <div id="firstwork" onclick="OpenProject1()" class="project-square"></div>
-          <div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div>
-          <div id="thirdwork" onclick="OpenProject3()" class="project-square"></div>
+          <p>Here you can check some projects i made in school or for myself.</p>
+          <a href="#projects"><div id="firstwork" onclick="OpenProject1()" class="project-square"></div></a>
+          <a href="#projects"><div id="secondwork" onclick="OpenProject2()" class="project-square center-square"></div></a>
+          <a href="#projects"><div id="thirdwork" onclick="OpenProject3()" class="project-square"></div></a>
         </div>
         <div id="contact">
           <div id="contact_recip">
-            <p class="title">Get in touch!</p>
+            <p class="title">Get in touch !</p>
             <p class="subtitle">Send me an e-mail</p>
+            <form action="send.php" method="post">
             <fieldset id="contact_form">
                 <div id="result"></div>
                 <input type="text" name="name" id="name" placeholder="Name:" />
                 </label>
                 
-                <input type="text" name="email" id="email" placeholder="E-mail:" />
+                <input type="email" name="email" id="email" placeholder="E-mail:" />
                 </label>
                 
                 <textarea name="message" id="message" placeholder="Message:"></textarea>
                 </label>
                 
                 <label><span>&nbsp;</span>
-                <button class="submit_btn" id="submit_btn">Submit</button>
+                <input type="submit" class="submit_btn" id="submit_btn" value="Send"></button>
                 </label>
             </fieldset>
+            </form>
 
             <div id="coords">
               <p class="subtitle">Infos</p>
               <p class="infos">antoine.papi@gmail.com    06.18.24.02.15</p>
-              <p class="infos">Paris 7eme / Saint-Mandé</p>
+              <p class="infos">Paris 7eme</p>
               <a href="#" class="social-icons"><img src="imgs/cv.png" alt="cv"/></a>
-              <a href="#" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
-              <a href="#" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
+              <a href="https://twitter.com/AntoinePapi" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
+              <a href="https://www.linkedin.com/profile/view?id=256610287&trk=nav_responsive_tab_profile_pic" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
             </div> <!-- end of coords -->
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
+
+        <!-- <form action="send.php" method="post">
+          <input type="text" id="name" name="name" placeholder="Name" />
+          
+          <input type="email" id="email" name="email" placeholder="Email" />
+          
+          <textarea name="message" id="message" rows="8" cols="40" placeholder="Hi,"></textarea>
+
+          <input type="submit" value="Send">
+        </form> -->
         
 
       </div><!-- enf of all -->
