@@ -24,6 +24,12 @@ function CloseProject(){
 			document.getElementById('case-study-3').className='fold';
 			setTimeout(function(){document.getElementById('obscur').className='obscur-on-1';},0);
 			setTimeout(function(){document.getElementById('obscur').className='off';},500);
+			setTimeout(function(){document.getElementById('first1').className='off-anim';},500);
+			setTimeout(function(){document.getElementById('second').className='off-anim';},500);
+			setTimeout(function(){document.getElementById('img_wk2').className='off-anim';},500);
+			setTimeout(function(){document.getElementById('img_busa').className='off-anim';},500);
+			setTimeout(function(){document.getElementById('img_busa1').className='off-anim';},500);
+			setTimeout(function(){document.getElementById('img_busa2').className='off-anim';},500);
 		}	
 
 function ObscurcirProject(){
