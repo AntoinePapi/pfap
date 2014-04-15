@@ -15,7 +15,7 @@
 <script src="js/projects.js" type="text/javascript"></script>
 <script src="js/waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/anims.js" type="text/javascript" charset="utf-8"></script>
-<link rel="icon" href="favicon.ico" />
+<link rel="icon" href="favicon2.png" />
 	
 <title>Antoine Papi</title>
 
@@ -83,67 +83,7 @@ $(document).ready(function(){
 });
 </script> 
 
-<!-- OLD MAIL JS <script type="text/javascript">
-$(document).ready(function() {
 
-    $("#submit_btn").click(function() { 
-        //get input field values
-        var user_name       = $('input[name=name]').val(); 
-        var user_email      = $('input[name=email]').val();
-        var user_phone      = $('input[name=phone]').val();
-        var user_message    = $('textarea[name=message]').val();
-        
-        //simple validation at client's end
-        //we simply change border color to red if empty field using .css()
-        var proceed = true;
-        if(user_name==""){ 
-            $('input[name=name]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_email==""){ 
-            $('input[name=email]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_phone=="") {    
-            $('input[name=phone]').css('border-color','red'); 
-            proceed = false;
-        }
-        if(user_message=="") {  
-            $('textarea[name=message]').css('border-color','red'); 
-            proceed = false;
-        }
-        
-        //everything looks good! proceed...
-        if(proceed) 
-        {
-            //data to be sent to server
-            post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
-            
-            //Ajax post data to server
-            $.post('contact_me.php', post_data, function(data){  
-                
-                //load success massage in #result div element, with slide effect.       
-                $("#result").hide().html('<div class="success">'+data+'</div>').slideDown();
-                
-                //reset values in all input fields
-                $('#contact_form input').val(''); 
-                $('#contact_form textarea').val(''); 
-                
-            }).fail(function(err) {  //load any error data
-                $("#result").hide().html('<div class="error">'+err.statusText+'</div>').slideDown();
-            });
-        }
-                
-    });
-    
-    //reset previously set border colors and hide all message on .keyup()
-    $("#contact_form input, #contact_form textarea").keyup(function() { 
-        $("#contact_form input, #contact_form textarea").css('border-color',''); 
-        $("#result").slideUp();
-    });
-    
-});
-</script> -->
 </head>
 <body>
   
@@ -169,7 +109,7 @@ $(document).ready(function() {
           <p class="title">About me</p>
           <img src="imgs/antoine.jpg" alt="Antoine Papi"/>
           <p>Hi there,</p>
-          <p> I'm a 22 years old student, currently in my third year at <a href="http://www.hetic.net/">HETIC</a> </p>
+          <p> I'm a 22 years old student, currently in my third year at <a href="http://www.hetic.net/">HETIC.</a> </p>
           <p>I really like to optimize the user experience, to innovate and have an overall picture of the project.</p>
           <p></br>I’m looking for a 4 months internship starting this summer.</p>
 
@@ -292,17 +232,6 @@ $(document).ready(function() {
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
 
-
-
-        <!-- <form action="send.php" method="post">
-          <input type="text" id="name" name="name" placeholder="Name" />
-          
-          <input type="email" id="email" name="email" placeholder="Email" />
-          
-          <textarea name="message" id="message" rows="8" cols="40" placeholder="Hi,"></textarea>
-
-          <input type="submit" value="Send">
-        </form> -->
         
 
       </div><!-- enf of all -->
