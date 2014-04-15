@@ -219,7 +219,7 @@ $(document).ready(function() {
            
           <div id="img_cs1" class="cf">
           <img class="img_wk1" src="imgs/WK_2.png">
-          <p class="comment_wk1"> Typography is my first love, i like to work with it</p>
+          <p class="comment_wk1"> Typography is my first love, i like to work with it, make it even more beautiful</p>
           </div>
 
           <img id="img_wk2" class="off-anim" src="imgs/WK_3.png">
@@ -233,7 +233,7 @@ $(document).ready(function() {
           <p class="cs_title"> BasketUSA app redesign </p>
            <div class="circle"></div>
           <p class="job_title"> Personal project UX/UI design </p>
-          <p class="description"> BasketUSA is the reference in basket informations. I redesigned the application to make it more intuitive. </p>
+          <p class="description"> BasketUSA is the reference in basket informations. </br>I redesigned the application to make it more intuitive. </p>
 
            <img id="img_busa" class="off-anim" src="imgs/busa_1.png">
           <p class="comment_busa"> Purify informations and go to the fundamentals </p>
@@ -285,12 +285,14 @@ $(document).ready(function() {
               <p class="subtitle">Infos</p>
               <p class="infos">antoine.papi@gmail.com    06.18.24.02.15</p>
               <p class="infos">Paris 7eme</p>
-              <a href="#" class="social-icons"><img src="imgs/cv.png" alt="cv"/></a>
+              <a href="CV_PAPI.pdf" class="social-icons"><img src="imgs/cv.png" alt="cv"/></a>
               <a href="https://twitter.com/AntoinePapi" class="social-icons"><img src="imgs/twitter.png" alt="twitter"/></a>
               <a href="https://www.linkedin.com/profile/view?id=256610287&trk=nav_responsive_tab_profile_pic" class="social-icons"><img src="imgs/linkedin.png" alt="linkedin"/></a>
             </div> <!-- end of coords -->
           </div> <!-- end of contact-recipe -->
         </div> <!-- end of contact -->
+
+
 
         <!-- <form action="send.php" method="post">
           <input type="text" id="name" name="name" placeholder="Name" />

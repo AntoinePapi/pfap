@@ -11,7 +11,7 @@ $('#first1').waypoint(function() {
 $('#second').waypoint(function() {
     document.getElementById('second').className='on-anim second-after';
 	/*setTimeout(function(){document.getElementById('obscur').className='obscur-on-1';},0);*/
-    }, { offset: 100 
+    }, { offset: 150 
 });  
 
 $('#img_wk2').waypoint(function() {
